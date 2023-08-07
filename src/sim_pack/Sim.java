@@ -67,7 +67,7 @@ public class Sim extends JPanel implements ActionListener {
         if (frame == 100) {
             frame = 0;
             wind = null;
-            wind = new PVector(3*(Math.random()-0.5), -6*(Math.random()-0.5) );
+            wind = new PVector(3*(Math.random()-0.5), -7*(Math.random()-0.5) );
             // -6 because I need strong upwards wind to lift the ball up
         }
     }
